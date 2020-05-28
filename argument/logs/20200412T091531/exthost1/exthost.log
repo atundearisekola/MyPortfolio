@@ -1,0 +1,232 @@
+[2020-04-12 09:15:45.037] [exthost] [info] extension host started
+[2020-04-12 09:15:45.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-12 09:15:45.200] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-04-12 09:15:45.302] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-12 09:15:45.303] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-04-12 09:15:45.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-12 09:15:45.507] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-04-12 09:15:45.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-12 09:15:45.775] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-04-12 09:15:45.819] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-12 09:15:45.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-04-12 09:15:45.852] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-12 09:15:45.852] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-04-12 09:15:45.875] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-12 09:15:45.875] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-04-12 09:15:45.909] [exthost] [info] ExtensionService#_doActivateExtension Wscats.eno {"startup":true,"extensionId":{"value":"Wscats.eno","_lower":"wscats.eno"},"activationEvent":"*"}
+[2020-04-12 09:15:45.910] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/wscats.eno-2.1.4/extension
+[2020-04-12 09:15:50.975] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-04-12 09:15:50.975] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/main
+[2020-04-12 09:15:51.188] [exthost] [info] eager extensions activated
+[2020-04-12 09:18:16.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-04-12 09:18:16.325] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2020-04-12 09:18:25.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-04-12 09:18:25.038] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-04-12 09:19:35.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-04-12 09:19:35.705] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-04-12 09:20:38.239] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:20:38.241] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:20:39.759] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-04-12 09:20:45.582] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:20:45.583] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:21:11.402] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:21:11.402] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:21:44.953] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:21:44.953] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:22:06.433] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:22:06.439] [exthost] [error] Error: <semantic> TypeScript Server Error (3.8.3)
+Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+Error: Debug Failure. False expression: `JsxText` tokens should not be the first child of `JsxElement | JsxSelfClosingElement`
+    at findRightmostChildNodeWithTokens (tsserver.js:106401:26)
+    at find (tsserver.js:106378:29)
+    at findPrecedingToken (tsserver.js:106342:22)
+    at getTokenAtPositionWorker (tsserver.js:106292:41)
+    at getTouchingToken (tsserver.js:106266:16)
+    at Object.getTouchingPropertyName (tsserver.js:106258:16)
+    at Proxy.getQuickInfoAtPosition (tsserver.js:135375:27)
+    at IOSession.Session.getQuickInfoWorker (tsserver.js:145332:62)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:144335:61)
+    at tsserver.js:146003:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:145994:28)
+    at IOSession.Session.executeCommand (tsserver.js:146003:33)
+    at IOSession.Session.onMessage (tsserver.js:146027:35)
+    at Interface.<anonymous> (tsserver.js:147342:27)
+    at Interface.emit (events.js:203:13)
+    at Interface._onLine (readline.js:316:10)
+    at Interface._normalWrite (readline.js:461:12)
+    at Socket.ondata (readline.js:172:10)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:52622)
+	at e.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:220920)
+	at e.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219838)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219314
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:497)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:227976)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:227624)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-12 09:23:13.623] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:23:13.625] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:24:16.711] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-04-12 09:24:16.712] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-04-12 09:24:22.670] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:24:22.671] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:24:31.424] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:24:31.425] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:24:32.848] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:24:32.848] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:24:39.649] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:24:39.649] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:24:48.292] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:24:48.292] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:26:11.927] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:26:11.928] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:48:52.402] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:48:52.404] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:49:12.741] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:49:12.741] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 09:49:14.457] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 09:49:14.457] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:26.112] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:26.112] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:30.048] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:30.049] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:36.568] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:36.569] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:38.350] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:38.350] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:39.660] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:39.660] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:42.879] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:42.879] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:48.385] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:48.385] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:06:52.208] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:06:52.208] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:07:41.198] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:07:41.198] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:07:42.205] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:07:42.205] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:08:03.295] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:08:03.295] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:08:17.697] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:08:17.697] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:08:32.519] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:08:32.519] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:08:37.678] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:08:37.679] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:08:46.348] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:08:46.348] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:09:09.178] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:09:09.178] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:11:33.939] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:11:33.941] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:17:51.610] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:17:51.610] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:03.902] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:03.902] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:09.940] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:09.940] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:11.422] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:11.422] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:32.877] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:32.877] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:36.058] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:36.059] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:38.101] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:38.102] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:18:53.871] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:18:53.871] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:22:37.585] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:22:37.585] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:25:31.472] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:25:31.472] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:25:40.249] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:25:40.249] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:25:45.880] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:25:45.880] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:09.559] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:09.559] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:12.249] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:12.249] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:13.065] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:13.065] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:16.876] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:16.876] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:25.347] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:25.347] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:33.272] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:33.272] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:36.477] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:36.478] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:26:54.263] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:26:54.264] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processTimers (internal/timers.js:472:9)
+[2020-04-12 10:27:15.760] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:27:15.760] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:27:36.206] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:27:36.206] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-04-12 10:27:38.867] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-12 10:27:38.867] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)

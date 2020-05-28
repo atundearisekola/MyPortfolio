@@ -1,0 +1,6 @@
+[2020-04-12 09:15:32.033] [main] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/Documents/ReactApps/atundearisekola/argument/User'
+[2020-04-12 09:15:33.180] [main] [info] update#setState idle
+[2020-04-12 09:16:03.182] [main] [info] update#setState checking for updates
+[2020-04-12 09:16:03.485] [main] [info] update#setState idle
+[2020-04-12 10:16:03.200] [main] [info] update#setState checking for updates
+[2020-04-12 10:16:06.855] [main] [info] update#setState idle
