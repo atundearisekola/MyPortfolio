@@ -14,12 +14,21 @@ class Contact extends Component {
               alt="avatar"
               className="avatar-img"
             />
-            <p style={{ width: '750', margin: 'auto', paddingTop: '1em' }}>
-              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-              used in laying out print, graphic or web designs. The passage is
-              attributed to an unknown typesetter in the 15th century who is
-              thought to have scrambled parts of Cicero's De Finibus Bonorum et
-              Malorum for use in a type specimen book.
+            <p
+              className=""
+              style={{
+                margin: 'auto',
+                paddingTop: '1em',
+                paddingBottom: '1em',
+              }}
+            >
+              I am an experienced Full-Stack developer and social media manager,
+              I’ve been a professional developer for more than 4 years. I’ve
+              mostly worked professionally with Java, PHP, Javascript, Node.js
+              and Python, I am proficient in the use of Frameworks including
+              (React.js, React Native, Next.js, Gatsby, Laravel), I have well
+              understanding of tools like Docker, Kubernetics and micro-service
+              architecture.
             </p>
           </Cell>
           <Cell col={6}>
@@ -28,29 +37,28 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '18px', fontFamily: 'Anton' }}
-                  >
+                  <ListItemContent className="contact-list__item">
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (234) 8159109387
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '18px', fontFamily: 'Anton' }}
-                  >
+                  <ListItemContent className="contact-list__item">
                     <i className="fa fa-envelope" aria-hidden="true" />
                     atundearisekola@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: '18px', fontFamily: 'Anton' }}
-                  >
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    @atundearisekola
+                  <ListItemContent className="contact-list__item">
+                    <span>
+                      <i
+                        className="fa fa-skype contact-list__item-icon"
+                        aria-hidden="true"
+                      />
+                    </span>
+                    <span>@atundearisekola</span>
                   </ListItemContent>
                 </ListItem>
               </List>

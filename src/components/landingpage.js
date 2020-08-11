@@ -9,22 +9,22 @@ class Landing extends Component {
           <Cell col={12}>
             <img src={atunde} alt="avatar" className="avatar-img" />
             <div className="banner-text">
-              <h1>Full Stack Developer</h1>
+              <h1 className="banner-text__title">Full Stack Developer</h1>
 
               <hr />
 
               <Grid className="social-links">
-                <Cell col={2} phone={6} tablet={4}>
+                <Cell col={2} phone={2} tablet={2}>
                   {/* LinkedIn*/}
                   <a
-                    href="http://google.com"
+                    href="https://linkedin.com/in/atundearisekola"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
                     <i className="fa fa-linkedin-square" areia-hidden="true" />
                   </a>
                 </Cell>
-                <Cell col={2} phone={6} tablet={4}>
+                <Cell col={2} phone={2} tablet={2}>
                   {/* Github*/}
                   <a
                     href="http://github.com/atundearisekola"
@@ -34,7 +34,7 @@ class Landing extends Component {
                     <i className="fa fa-github-square" areia-hidden="true" />
                   </a>
                 </Cell>
-                <Cell col={2} phone={6} tablet={4}>
+                <Cell col={2} phone={2} tablet={2}>
                   {/* freecodecamp*/}
                   <a
                     href="http://google.com"
@@ -44,14 +44,14 @@ class Landing extends Component {
                     <i className="fa fa-free-code-camp" areia-hidden="true" />
                   </a>
                 </Cell>
-                <Cell col={2} phone={6} tablet={4}>
+                <Cell col={2} phone={2} tablet={2}>
                   {/* Youtube*/}
                   <a
-                    href="http://google.com"
+                    href="https://twitter.com/atundearisekola"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fa fa-youtube-square" areia-hidden="true" />
+                    <i className="fa fa-twitter-square" areia-hidden="true" />
                   </a>
                 </Cell>
               </Grid>

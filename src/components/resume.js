@@ -23,11 +23,13 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #833fe2', width: '50%' }} />
             <p>
               {' '}
-              Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-              used in laying out print, graphic or web designs. The passage is
-              attributed to an unknown typesetter in the 15th century who is
-              thought to have scrambled parts of Cicero's De Finibus Bonorum et
-              Malorum for use in a type specimen book.
+              I am an experienced Full-Stack developer and social media manager,
+              I’ve been a professional developer for more than 4 years. I’ve
+              mostly worked professionally with Java, PHP, Javascript, Node.js
+              and Python, I am proficient in the use of Frameworks including
+              (React.js, React Native, Next.js, Gatsby, Laravel), I have well
+              understanding of tools like Docker, Kubernetics and micro-service
+              architecture..
             </p>
             <hr style={{ borderTop: '3px solid #833fe2', width: '50%' }} />
             <h5>Address</h5>
@@ -49,18 +51,29 @@ class Resume extends Component {
               startYear={2012}
               endYear={2018}
               schoolName="Olabisi Onabanjo University"
-              schoolDescription="Olabisi Onabanjo University, Ago-Iwoye is a state (owned and operated) university in Ago-Iwoye, Ogun State, Nigeria. The university was founded July 7, 1982 as Ogun State University (OSU) and was renamed Olabisi Onabanjo University on May 29, 2001 in honour of Chief (Dr.) Olabisi Onabanjo, whose efforts as the then civilian governor of Ogun State gave birth to the university. Meanwhile, many students still refer to the institution as OSU, an acronym for the former name.
-                        The university has had a total output of 10,291 graduates and 1,697 postgraduates.                        
-                        Olabisi Onabanjo University has multiple campuses. The Main Campus in Ago-Iwoye is popularly called Permanent Site (PS) by the students and a Mini Campus which was the home of the Faculty of Science till it was moved to the permanent site in January 2013. Faculty of Agriculture is in Aiyetoro, faculty of Engineering is in Ibogun, College of Medicine, faculties of Basic Medical Sciences and Pharmacy are in Shagamu. Students and alumni of the Olabisi Onabanjo University are addressed as ‘Great OOUITES.’ "
+              schoolDescription="Olabisi Onabanjo University, Ago-Iwoye is a state (owned and operated) university in Ago-Iwoye, Ogun State, Nigeria. The university was founded July 7, 1982 as Ogun State University (OSU) and was renamed Olabisi Onabanjo University on May 29, 2001 in honour of Chief (Dr.) Olabisi Onabanjo, whose efforts as the then civilian governor of Ogun State gave birth to the university.  "
             />
 
             <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Experience</h2>
+
             <Experience
-              startYear={2012}
+              startYear="June' 2020"
+              endYear="July' 2020"
+              jobName="Full Stack Developer at Excellent & Strategic Solutions"
+              jobDescription="Excellent & Strategic Solutions is a Tech solution startup, Work as a Remote Full Stack developer to develop  client Applications."
+            />
+            <Experience
+              startYear={2018}
               endYear="Present"
-              jobName="Full Stack Developer"
-              jobDescription="Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book."
+              jobName="Full Stack Developer at Kleanary Laundry&Dry Cleaning Service"
+              jobDescription="Kleanary is a laundry & Dry cleaning company, i work as a software Engineer to develop and maintain  Kleanary web and mobile Appliction, which allow user to easily request and track their laundry activities"
+            />
+            <Experience
+              startYear={2016}
+              endYear="2018"
+              jobName="Full Stack Developer at Aubics"
+              jobDescription="Aubics is an ecommerce platform, i worked to develop and maintain Aubics website."
             />
 
             <hr style={{ borderTop: '3px solid #e22947' }} />

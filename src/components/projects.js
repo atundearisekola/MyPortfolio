@@ -1,135 +1,145 @@
-import React,{Component} from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import React, { Component } from 'react';
+import {
+  Tabs,
+  Tab,
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardText,
+  CardActions,
+  Button,
+  CardMenu,
+  IconButton,
+} from 'react-mdl';
+import ProjectItem from './projectItem';
 
+import { Link, NavLink } from 'react-router-dom';
 
-class Projects extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            activeTab: 0,
-        };
-
+class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeTab: 0,
+    };
+  }
+  toggleCategories() {
+    if (this.state.activeTab === 0) {
+      return (
+        <div className="projects">
+          <Grid>
+            <ProjectItem
+              title="Kleanary Andriod&IOS"
+              description="Kleanary is and Android and IOS mobile Appliction built with React-Native to make request for laundry"
+              github="https://github.com/atundearisekola/kleanary"
+              live="#"
+            />
+            <ProjectItem
+              title="Kleanary Web Appliction"
+              description="Kleanary is a Laundry Web App built with React.js"
+              github="https://github.com/atundearisekola/KleanaryWeb/tree/master/kleanary"
+              live="#"
+            />
+            <ProjectItem
+              title="Cleanary"
+              description="Cleanary is a Dry Cleaning Web App built with Laravel PHP"
+              github="https://github.com/atundearisekola/KleanaryWeb/tree/master/cleanary"
+              live="#"
+            />
+            <ProjectItem
+              title="Cabbinow"
+              description="Cabbinow is an Android Appliction built with Java, a Logistic App to hire or
+              request a Cab."
+              github="https://github.com/atundearisekola/Cabbinow"
+              live="#"
+            />
+            <ProjectItem
+              title="Random Qoutes "
+              description="Random Qoutes is a random motivational quotes  Web App built with React.js"
+              github="https://github.com/atundearisekola/quotes-app"
+              live="#"
+            />
+            <ProjectItem
+              title="TextZnuta"
+              description="TextZnuta is an Image to Text Android Application built with Java to convert text on an Image to editable text ."
+              github="https://github.com/atundearisekola/TextZnuta"
+              live="#"
+            />
+            <ProjectItem
+              title="Med-Manager"
+              description="Med-Manager is a mediction android appliction built with Java to help clients keep and notify them  on when to take their medication."
+              github="https://github.com/atundearisekola/Med-Manager2"
+              live="#"
+            />
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="projects">
+          <Grid>
+            <ProjectItem
+              title="Cleanary"
+              description="Cleanary is a Dry Cleaning App built with Laravel PHP"
+              github="https://github.com/atundearisekola/KleanaryWeb/tree/master/cleanary"
+              live="#"
+            />
+            <ProjectItem
+              title="TextZnuta"
+              description="TextZnuta is an Image to Text Application to convert text on an Image to editable text ."
+              github="https://github.com/atundearisekola/TextZnuta"
+              live="#"
+            />
+            <ProjectItem
+              title="Med-Manager"
+              description="Med-Manager is a mediction android appliction to help clients keep and notify them  on when to take their medication."
+              github="https://github.com/atundearisekola/Med-Manager2"
+              live="#"
+            />
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div>
+          <h1>This is ReactJS</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div>
+          <h1>This is React Native</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <div>
+          <h1>This is Python</h1>
+        </div>
+      );
     }
-    toggleCategories(){
-        if (this.state.activeTab === 0) {
-            return(
-                <div className="projects-grid">
-                    <Grid>
-                    <Cell col={4} phone={12} tablet={6}>
-                    <Card shadow={5} style={{minwidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg) center /cover'}}>React Project #1</CardTitle>
-                    <CardText>
-                    On it follow, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
+  }
 
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
+  render() {
+    return (
+      <div className="category-tabs">
+        <Tabs
+          style={{ marginTop: '30px' }}
+          activeTab={this.state.activeTab}
+          onChange={(tabid) => this.setState({ activeTab: tabid })}
+          ripple
+        >
+          <Tab>Projects</Tab>
+        </Tabs>
 
-                </Card>
-
-                    </Cell>
-                    <Cell col={4} phone={12} tablet={6}>
-                    <Card shadow={5} style={{minwidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg) center /cover'}}>React Project #1</CardTitle>
-                    <CardText>
-                    On it follow, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-
-                </Card>
-
-                    </Cell>
-
-                    <Cell col={4} phone={12} tablet={6}>
-                    <Card shadow={5} style={{minwidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg) center /cover'}}>React Project #1</CardTitle>
-                    <CardText>
-                    On it follow, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-
-                </Card>
-
-                    </Cell>
-                    </Grid>
-                    
-
-                
-
-                </div>
-                
-            )
-            
-        }else if (this.state.activeTab === 1) {
-            return(
-                <div><h1>This is PHP/Laravel</h1></div>
-            )
-            
-        }else if (this.state.activeTab === 2) {
-            return(
-                <div><h1>This is ReactJS</h1></div>
-            )
-            
-        }else if (this.state.activeTab === 3) {
-            return(
-                <div><h1>This is React Native</h1></div>
-            )
-            
-        }else if (this.state.activeTab === 4) {
-            return(
-                <div><h1>This is Python</h1></div>
-            )
-            
-        }
-    }
-
-    render(){
-        return(
-            <div className="category-tabs">
-                <Tabs style={{marginTop: '30px'}} activeTab={this.state.activeTab} onChange={(tabid) => this.setState({activeTab: tabid})} ripple>
-                    <Tab>JAVA</Tab>
-                    <Tab>PHP/Laravel</Tab>
-                    <Tab>ReactJS</Tab>
-                    <Tab>React Native</Tab>
-                    <Tab>Python</Tab>
-
-                </Tabs>
-                
-                    <Grid >
-                        <Cell col={12}>
-        <div className="content"> {this.toggleCategories()}</div>
-
-                        </Cell>
-
-                    </Grid>
-                   
-
-               
-            </div>
-        )
-    }
+        <Grid>
+          <Cell col={12}>
+            <div className="content"> {this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
 }
 
 export default Projects;

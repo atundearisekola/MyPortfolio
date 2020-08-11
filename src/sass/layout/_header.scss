@@ -1,0 +1,33 @@
+.material-icons {
+  color: $color-white !important;
+
+  @include respond(tab-port) {
+    // width < 900?
+    color: red !important; //1 rem = 8px, 8/16 = 50%
+  }
+}
+
+.header {
+  background: #833ab4; /* fallback for old browsers */
+  color: $color-white;
+
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  &--link {
+    color: $color-white;
+  }
+
+  &--nav {
+  }
+}
