@@ -23,9 +23,8 @@ class Contact extends Component {
               }}
             >
               I am an experienced Full-Stack developer and social media manager,
-              I’ve been a professional developer for more than 4 years. I’ve
-              mostly worked professionally with Java, PHP, Javascript, Node.js
-              and Python, I am proficient in the use of Frameworks including
+              I am proficient in the use of Java, PHP, Javascript, Node.js and
+              Python, I am proficient in the use of Frameworks including
               (React.js, React Native, Next.js, Gatsby, Laravel), I have well
               understanding of tools like Docker, Kubernetics and micro-service
               architecture.

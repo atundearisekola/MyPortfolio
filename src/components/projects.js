@@ -38,12 +38,18 @@ class Projects extends Component {
               title="Kleanary Web Appliction"
               description="Kleanary is a Laundry Web App built with React.js"
               github="https://github.com/atundearisekola/KleanaryWeb/tree/master/kleanary"
-              live="#"
+              live="https://kleanary.netlify.app/"
             />
             <ProjectItem
               title="Cleanary"
               description="Cleanary is a Dry Cleaning Web App built with Laravel PHP"
               github="https://github.com/atundearisekola/KleanaryWeb/tree/master/cleanary"
+              live="#"
+            />
+            <ProjectItem
+              title="Toyp"
+              description="Toyp  is a voting Web App built with Laravel PHP"
+              github="https://github.com/atundearisekola/toyp"
               live="#"
             />
             <ProjectItem
@@ -57,7 +63,7 @@ class Projects extends Component {
               title="Random Qoutes "
               description="Random Qoutes is a random motivational quotes  Web App built with React.js"
               github="https://github.com/atundearisekola/quotes-app"
-              live="#"
+              live="https://quotes-app-jet.vercel.app/"
             />
             <ProjectItem
               title="TextZnuta"
@@ -70,6 +76,12 @@ class Projects extends Component {
               description="Med-Manager is a mediction android appliction built with Java to help clients keep and notify them  on when to take their medication."
               github="https://github.com/atundearisekola/Med-Manager2"
               live="#"
+            />
+            <ProjectItem
+              title="Hotel-Booker"
+              description="Hotel-Booker is an hotel booking web app built with next.js to help customer pre book their hotel."
+              github="https://github.com/atundearisekola/hotelbooking"
+              live="https://hotelbooking.vercel.app/"
             />
           </Grid>
         </div>

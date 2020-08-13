@@ -27,7 +27,12 @@ function App() {
 
             <NavLink to="/projects">Projects </NavLink>
             <NavLink to="/contact">Contact </NavLink>
-            <a className=" btn-text btn--green">Download CV</a>
+            <a
+              href="https://drive.google.com/file/d/1qexPCg06sQYvGBD_0FMkB626qRbLCuMv/view?usp=sharing"
+              className=" btn-text btn--green"
+            >
+              Download CV
+            </a>
           </Navigation>
         </Header>
         <Drawer
@@ -42,7 +47,11 @@ function App() {
 
             <NavLink to="/projects">Projects </NavLink>
             <NavLink to="/contact">Contact </NavLink>
-            <a button className="btn btn--green">
+            <a
+              href="https://drive.google.com/file/d/1qexPCg06sQYvGBD_0FMkB626qRbLCuMv/view?usp=sharing"
+              button
+              className="btn btn--green"
+            >
               Download CV
             </a>
           </Navigation>

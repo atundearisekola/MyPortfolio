@@ -17,7 +17,7 @@ class Landing extends Component {
                 <Cell col={2} phone={2} tablet={2}>
                   {/* LinkedIn*/}
                   <a
-                    href="https://linkedin.com/in/atundearisekola"
+                    href="https://www.linkedin.com/in/arisekola-atunde-1ab82aba/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -37,11 +37,11 @@ class Landing extends Component {
                 <Cell col={2} phone={2} tablet={2}>
                   {/* freecodecamp*/}
                   <a
-                    href="http://google.com"
+                    href="https://web.facebook.com/atunde.arisekola/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fa fa-free-code-camp" areia-hidden="true" />
+                    <i className="fa fa-facebook-square" areia-hidden="true" />
                   </a>
                 </Cell>
                 <Cell col={2} phone={2} tablet={2}>
