@@ -29,7 +29,7 @@ function App() {
             <NavLink to="/contact">Contact </NavLink>
             <a
               href="https://drive.google.com/file/d/1qexPCg06sQYvGBD_0FMkB626qRbLCuMv/view?usp=sharing"
-              className=" btn-text btn--green"
+              className="  btn-text"
             >
               Download CV
             </a>
@@ -50,7 +50,7 @@ function App() {
             <a
               href="https://drive.google.com/file/d/1qexPCg06sQYvGBD_0FMkB626qRbLCuMv/view?usp=sharing"
               button
-              className="btn btn--green"
+              className=" btn-text"
             >
               Download CV
             </a>
